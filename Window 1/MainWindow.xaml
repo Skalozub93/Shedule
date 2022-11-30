@@ -1,0 +1,90 @@
+﻿<Window x:Class="Window_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Window_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+
+        </Grid.RowDefinitions>
+
+
+        <Button Grid.Row="0" Grid.ColumnSpan="3" Content="December 2022" FontSize="20" FontFamily="Arial Black" Grid.Column="2" BorderBrush="White" Background="White"/>
+
+        <Button Grid.Row="1" Grid.Column="0" Content="Monday" FontSize="16" FontFamily="Arial" Margin="5,10,5,10" Background="White" BorderBrush="White"/>
+        <Button Grid.Row="1" Content="Tuesday" FontSize="16" FontFamily="Arial" Margin="5,10,5,10" Grid.Column="1" Background="White" BorderBrush="White"/>
+        <Button Grid.Row="1" Grid.Column="2" Content="Wednesday" FontSize="16" FontFamily="Arial" Margin="5,10,5,10" Background="White" BorderBrush="White"/>
+        <Button Grid.Column="3" Content="Thursday" FontSize="16" FontFamily="Arial" Margin="5,10,5,10" Grid.Row="1" Background="White" BorderBrush="White"/>
+        <Button Grid.Column="4" Content="Friday" FontSize="16" FontFamily="Arial" Margin="5,10,5,10" Grid.Row="1" Background="White" BorderBrush="White"/>
+        <Button Grid.Column="5" Content="Saturday" FontSize="16" FontFamily="Arial" Margin="5,10,5,10" Grid.Row="1" Background="White" BorderBrush="White"/>
+        <Button Grid.Column="6" Content="Sunday" FontSize="16" FontFamily="Arial" Margin="5,10,5,10" Grid.Row="1" Background="White" BorderBrush="White"/>
+
+        <Button Grid.Row="2" Grid.Column="3" Content="1" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click"/>
+        <Button Grid.Row="2" Grid.Column="4" Content="2" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FFE0E0E0" BorderBrush="White"/>
+        <Button Grid.Row="2" Grid.Column="5" Content="3" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_1"/>
+        <Button Grid.Row="2" Grid.Column="6" Content="4" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+
+        <Button Grid.Row="3" Grid.Column="0" Content="5" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_2"/>
+        <Button Grid.Row="3" Content="6" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Grid.Column="1" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_3"/>
+        <Button Grid.Row="3" Grid.Column="2" Content="7" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="3" Grid.Column="3" Content="8" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_4"/>
+        <Button Grid.Row="3" Grid.Column="4" Content="9" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="3" Grid.Column="5" Content="10" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_5"/>
+        <Button Grid.Row="3" Grid.Column="6" Content="11" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+
+        <Button Grid.Row="4" Grid.Column="0" Content="12" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_6"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="13" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_7"/>
+        <Button Grid.Row="4" Grid.Column="2" Content="14" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="4" Grid.Column="3" Content="15" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_8"/>
+        <Button Grid.Row="4" Grid.Column="4" Content="16" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="4" Grid.Column="5" Content="17" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White" />
+        <Button Grid.Row="4" Grid.Column="6" Content="18" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+
+        <Button Grid.Row="5" Grid.Column="0" Content="19" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_9"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="20" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_10"/>
+        <Button Grid.Row="5" Grid.Column="2" Content="21" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="5" Grid.Column="3" Content="22" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Background="#FF1FAFE9" BorderBrush="White" Click="Button_Click_11"/>
+        <Button Grid.Row="5" Grid.Column="4" Content="23" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="5" Grid.Column="5" Content="24" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="5" Grid.Column="6" Content="25" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+
+        <Button Grid.Row="6" Grid.Column="0" Content="26" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="6" Content="27" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" Grid.Column="1" BorderBrush="White"/>
+        <Button Grid.Row="6" Grid.Column="2" Content="28" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="6" Grid.Column="3" Content="29" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="6" Grid.Column="4" Content="30" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+        <Button Grid.Row="6" Grid.Column="5" Content="31" FontSize="16" FontFamily="Arial" Margin="5,5,5,5" BorderBrush="White"/>
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
